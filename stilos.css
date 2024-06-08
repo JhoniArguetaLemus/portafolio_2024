@@ -1,0 +1,126 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url('imagenes/fondo.jpg');
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #00204a;
+    padding: 1rem;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-toggler {
+    background-color: #00204a;
+}
+
+ul{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav li{
+  
+    margin-left: 20px;
+  
+  
+}
+
+
+.navbar-nav li :hover{
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+}
+
+
+.columna{
+    display: flex;
+    flex-direction: row;
+    background-color:#005792;
+    padding: 2rem;
+    border-radius: 15px;
+    opacity: 0.9;
+  
+}
+
+
+
+.imagen img{
+    border-radius: 15px;
+}
+
+.descripcion{
+    margin-left: 1.5em;
+    padding: 1em;
+
+    color: white;
+}
+
+main{
+    margin-top: 100px;
+   
+}
+
+
+
+
+.proyectos, .contacto, .tecnologias{
+ 
+    margin-top: 100px;
+  
+    width: 90%;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:#005792;
+    color: white;
+    opacity: 0.9;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+}
+
+.proyectos-web{
+    margin-top: 50px;
+
+}
+
+.tecnologia img{
+    border-radius: 15px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+        
+    }
+
+    .columna{
+        flex-direction: column;
+      
+    }
+
+    .descripcion{
+        margin-top: 2rem;
+    }
+
+    
+    
+}
