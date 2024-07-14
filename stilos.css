@@ -11,6 +11,8 @@
    background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 .navbar-collapse{
     align-items: center;
     justify-content: space-evenly;
@@ -52,7 +54,12 @@ ul{
     padding: 2rem;
     border-radius: 15px;
     opacity: 0.9;
-  
+    box-shadow: 5px 5px 5px white;
+    transition: 1s ease-in-out;
+}
+
+.columna:hover{
+    transform: scale(1.1);
 }
 
 
@@ -79,7 +86,7 @@ main{
 .proyectos, .contacto, .tecnologias, footer{
  
     margin-top: 100px;
-  
+    box-shadow: 5px 5px 5px white;
     width: 90%;
     border-radius: 30px;
     margin-left: auto;
@@ -90,7 +97,17 @@ main{
     opacity: 0.9;
     padding-bottom: 2rem;
     padding-top: 3rem;
+  
 }
+
+a:hover{
+    transform: scale(1.2);
+}
+
+a{
+    transition: 2s ease-in-out;
+}
+
 
 .proyectos-web{
     margin-top: 50px;
